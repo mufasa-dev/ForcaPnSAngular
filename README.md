@@ -1,27 +1,59 @@
-# PalavrasNoSilencioForca
+# Libras Hangman Game
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.5.
+This is a Hangman game built with Angular 17 that uses the Brazilian Sign Language (Libras) fingerspelling. The game allows players to guess words by selecting the corresponding Libras hand signs.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- **Interactive Gameplay**: Players can guess words by selecting Libras hand signs.
+- **Libras Fingerspelling**: Uses images or animations of Libras hand signs for each letter.
+- **Responsive Design**: The game is responsive and works on various devices.
+- **Score Tracking**: Keeps track of the player's score and number of attempts.
 
-## Code scaffolding
+## Technologies Used
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Angular 17
+- TypeScript
+- HTML5
+- CSS3
 
-## Build
+## Getting Started
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Follow these instructions to get a copy of the project up and running on your local machine.
 
-## Running unit tests
+### Prerequisites
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Make sure you have the following installed:
 
-## Running end-to-end tests
+- Node.js
+- npm (or yarn)
+- Angular CLI
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+### Installation
 
-## Further help
+1. Clone the repository.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+2. Navigate to the project directory.
+
+3. Install the dependencies:
+    ```bash
+    npm install
+    ```
+
+### Running the Application
+
+1. Start the development server:
+    ```bash
+    ng serve
+    ```
+
+2. Open your browser and navigate to `http://localhost:4200`.
+
+## Pictures
+
+![Libras](https://i.ibb.co/TD7P5wD8/imagem-2025-03-27-001051009.png)
+
+## Usage
+
+- **Start Game**: Click the "Start Game" button to begin a new game.
+- **Guess Letters**: Select the Libras hand signs to guess the letters of the word.
+- **Win/Lose**: The game will notify you if you win or lose and provide an option to play again.
