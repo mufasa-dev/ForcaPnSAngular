@@ -3,7 +3,7 @@
 This is a Hangman game built with Angular 17 that uses the Brazilian Sign Language (Libras) fingerspelling. The game allows players to guess words by selecting the corresponding Libras hand signs.
 
 ## Features
-
+ 
 - **Interactive Gameplay**: Players can guess words by selecting Libras hand signs.
 - **Libras Fingerspelling**: Uses images or animations of Libras hand signs for each letter.
 - **Responsive Design**: The game is responsive and works on various devices.
