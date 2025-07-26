@@ -4,9 +4,10 @@ import { Palavra } from '../shared/palavras.model'
 import { PALAVRAS } from './palavras-mock'
 
 @Component({
-  selector: 'app-palavras',
-  templateUrl: './palavras.component.html',
-  styleUrls: ['./palavras.component.css']
+    selector: 'app-palavras',
+    templateUrl: './palavras.component.html',
+    styleUrls: ['./palavras.component.css'],
+    standalone: false
 })
 
 export class PalavrasComponent implements OnInit {

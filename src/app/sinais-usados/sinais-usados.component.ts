@@ -1,9 +1,10 @@
 import { Component, OnInit, EventEmitter, Output } from '@angular/core';
 
 @Component({
-  selector: 'app-sinais-usados',
-  templateUrl: './sinais-usados.component.html',
-  styleUrls: ['./sinais-usados.component.css']
+    selector: 'app-sinais-usados',
+    templateUrl: './sinais-usados.component.html',
+    styleUrls: ['./sinais-usados.component.css'],
+    standalone: false
 })
 export class SinaisUsadosComponent implements OnInit {
 

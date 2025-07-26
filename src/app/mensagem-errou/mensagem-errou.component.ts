@@ -1,9 +1,10 @@
 import { Component, OnInit, EventEmitter, Output } from '@angular/core';
 
 @Component({
-  selector: 'app-mensagem-errou',
-  templateUrl: './mensagem-errou.component.html',
-  styleUrls: ['./mensagem-errou.component.css']
+    selector: 'app-mensagem-errou',
+    templateUrl: './mensagem-errou.component.html',
+    styleUrls: ['./mensagem-errou.component.css'],
+    standalone: false
 })
 export class MensagemErrouComponent implements OnInit {
 

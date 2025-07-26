@@ -1,9 +1,10 @@
 import { Component, OnInit, EventEmitter, Output, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-letras',
-  templateUrl: './letras.component.html',
-  styleUrls: ['./letras.component.css']
+    selector: 'app-letras',
+    templateUrl: './letras.component.html',
+    styleUrls: ['./letras.component.css'],
+    standalone: false
 })
 export class LetrasComponent implements OnInit {
 

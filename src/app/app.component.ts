@@ -4,9 +4,10 @@ import { Palavra } from './shared/palavras.model'
 import { PALAVRAS } from './palavras/palavras-mock'
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+    selector: 'app-root',
+    templateUrl: './app.component.html',
+    styleUrls: ['./app.component.css'],
+    standalone: false
 })
 export class AppComponent {
   title = 'app';
