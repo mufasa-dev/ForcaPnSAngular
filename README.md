@@ -1,59 +1,85 @@
-# Libras Hangman Game
+# ✋🎮 Libras Hangman Game
 
-This is a Hangman game built with Angular 17 that uses the Brazilian Sign Language (Libras) fingerspelling. The game allows players to guess words by selecting the corresponding Libras hand signs.
+Welcome to the **Libras Hangman Game** – a hangman-style word guessing game built with **Angular 20**, featuring the **Brazilian Sign Language (Libras)** fingerspelling! 🇧🇷🤟
 
-## Features
- 
-- **Interactive Gameplay**: Players can guess words by selecting Libras hand signs.
-- **Libras Fingerspelling**: Uses images or animations of Libras hand signs for each letter.
-- **Responsive Design**: The game is responsive and works on various devices.
-- **Score Tracking**: Keeps track of the player's score and number of attempts.
+---
 
-## Technologies Used
+## 🌐 Live Demo
 
-- Angular 17
-- TypeScript
-- HTML5
-- CSS3
+🔗 [**Click here to play!**](https://mufasa-dev.github.io/ForcaPnSAngular/)  
 
-## Getting Started
+---
 
-Follow these instructions to get a copy of the project up and running on your local machine.
+## ✨ Features
 
-### Prerequisites
+- 🧠 **Interactive Gameplay** – Guess words by selecting Libras hand signs.
+- 🤟 **Libras Fingerspelling** – Uses visual hand signs for each letter.
+- 📱 **Responsive Design** – Works great on desktop and mobile devices.
+- 🧮 **Score Tracking** – Keeps track of correct guesses and attempts.
 
-Make sure you have the following installed:
+---
 
-- Node.js
-- npm (or yarn)
-- Angular CLI
+## 🧰 Technologies Used
 
-### Installation
+- ⚙️ Angular 20  
+- 🟦 TypeScript  
+- 🧱 HTML5  
+- 🎨 CSS3
 
-1. Clone the repository.
+---
 
-2. Navigate to the project directory.
+## 🚀 Getting Started
 
-3. Install the dependencies:
-    ```bash
-    npm install
-    ```
+Follow these steps to run the project locally:
 
-### Running the Application
+### ✅ Prerequisites
 
-1. Start the development server:
-    ```bash
-    ng serve
-    ```
+Make sure you have installed:
 
-2. Open your browser and navigate to `http://localhost:4200`.
+- 🔸 Node.js  
+- 🔸 npm (or yarn)  
+- 🔸 Angular CLI
 
-## Pictures
+### 📦 Installation
 
-![Libras](https://i.ibb.co/TD7P5wD8/imagem-2025-03-27-001051009.png)
+```bash
+git clone https://github.com/mufasa-dev/ForcaPnSAngular.git
+cd ForcaPnSAngular
+npm install
+````
 
-## Usage
+### ▶️ Running the Application
 
-- **Start Game**: Click the "Start Game" button to begin a new game.
-- **Guess Letters**: Select the Libras hand signs to guess the letters of the word.
-- **Win/Lose**: The game will notify you if you win or lose and provide an option to play again.
+```bash
+ng serve
+```
+
+Then open your browser at 👉 `http://localhost:4200`
+
+---
+
+## 🖼️ Preview
+
+![Libras Preview](https://i.ibb.co/TD7P5wD8/imagem-2025-03-27-001051009.png)
+
+---
+
+## 🎮 How to Play
+
+* 🟢 **Start Game** – Click **Start Game** to begin.
+* 🔤 **Guess Letters** – Select the corresponding Libras hand signs.
+* 🏆 **Win or Lose** – The game will alert you when you win or lose.
+* 🔁 **Try Again** – Play again as many times as you like!
+
+---
+
+## 👨‍💻 Author
+
+Made with ❤️ by [Bruno Ribeiro Antunes](https://github.com/mufasa-dev)
+
+---
+
+## 📄 License
+
+Licensed under the [MIT License](LICENSE).
+Feel free to use, share, and improve! 🙌
