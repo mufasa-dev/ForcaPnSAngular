@@ -11,11 +11,9 @@
       "schematics": {},
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-angular:application",
+          "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": {
-              "base": "dist/palavrasNoSilencioForca"
-            },
+            "outputPath": "dist/palavrasNoSilencioForca",
             "index": "src/index.html",
             "polyfills": [
               "src/polyfills.ts"
@@ -34,7 +32,7 @@
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.min.js"
             ],
-            "browser": "src/main.ts"
+            "main": "src/main.ts"
           },
           "configurations": {
             "production": {
