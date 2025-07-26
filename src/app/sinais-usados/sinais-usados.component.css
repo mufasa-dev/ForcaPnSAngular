@@ -1,13 +1,16 @@
-.sinaisUsados{
+.sinaisUsados {
     width: 100%;
     height: 100vh;
     background-color: #168442;
     position: fixed;
     top: 0;
     left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.sinaisUsados img{
+.sinaisUsados img {
     max-height: 100vh;
     max-width: 100%
 }
