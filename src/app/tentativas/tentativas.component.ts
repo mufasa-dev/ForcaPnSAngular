@@ -1,10 +1,11 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
 
 @Component({
     selector: 'app-tentativas',
     templateUrl: './tentativas.component.html',
     styleUrls: ['./tentativas.component.css'],
-    standalone: false
+    imports: [BrowserModule]
 })
 export class TentativasComponent implements OnInit {
 
