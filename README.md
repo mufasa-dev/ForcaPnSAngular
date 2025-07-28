@@ -1,6 +1,6 @@
 # ✋🎮 Libras Hangman Game
 
-Welcome to the **Libras Hangman Game** – a hangman-style word guessing game built with **Angular 20**, featuring the **Brazilian Sign Language (Libras)** fingerspelling! 🇧🇷🤟
+Welcome to the **Libras Hangman Game** – a hangman-style word guessing game built with **Angular 20**, featuring the **Brazilian Sign Language (Libras)** fingerspelling! 🇧🇷🤟 
 
 ---
 
