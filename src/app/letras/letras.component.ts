@@ -1,10 +1,11 @@
 import { Component, OnInit, EventEmitter, Output, Input } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
 
 @Component({
     selector: 'app-letras',
     templateUrl: './letras.component.html',
     styleUrls: ['./letras.component.css'],
-    standalone: false
+    imports: [BrowserModule]
 })
 export class LetrasComponent implements OnInit {
 

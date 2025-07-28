@@ -3,8 +3,7 @@ import { Component, OnInit, EventEmitter, Output } from '@angular/core';
 @Component({
     selector: 'app-mensagem-sucesso',
     templateUrl: './mensagem-sucesso.component.html',
-    styleUrls: ['./mensagem-sucesso.component.css'],
-    standalone: false
+    styleUrls: ['./mensagem-sucesso.component.css']
 })
 export class MensagemSucessoComponent implements OnInit {
 

@@ -1,13 +1,27 @@
 <app-fundo></app-fundo>
-<app-tentativas [tentativas]="tentativas"></app-tentativas>
-<app-press-start *ngIf="iniciou == false" (iniciou)="iniciaJogo($event)" (ajuda)="abrirSinais($event)"></app-press-start>
-<app-palavras [letras]="letras" [letrasDes]="letrasDes" [palavraDaVez]="palavraDaVez" *ngIf="iniciou" ></app-palavras>
-<app-letras *ngIf="iniciou" (escolheuLetra)="escolheuLetra($event)" [letrasUsadas]="letrasUsadas"></app-letras>
-<app-mensagem-sucesso (reiniciou)="reiniciaJogo($event)" *ngIf="mensagemSuccess"></app-mensagem-sucesso>
-<app-mensagem-errou (reiniciou)="reiniciaJogo($event)" *ngIf="mensagemLose"></app-mensagem-errou>
 
-<app-sinais-usados (fecharSinais)="fecharSinais($event)" *ngIf="sinaisUsados"></app-sinais-usados>
+<app-tentativas [tentativas]="tentativas" />
 
-<div class="botoesLateral">
-    <app-botao-voltar *ngIf="iniciou" (voltaInicio)="voltaInicio($event)"></app-botao-voltar>
-</div>
+@if (!iniciou) {
+    <app-press-start (iniciou)="iniciaJogo($event)" (ajuda)="abrirSinais($event)" />
+} @else {
+    <app-palavras [letras]="letras" [letrasDes]="letrasDes" [palavraDaVez]="palavraDaVez" />
+
+    <app-letras (escolheuLetra)="escolheuLetra($event)" [letrasUsadas]="letrasUsadas" />
+
+    <div class="botoesLateral">
+        <app-botao-voltar (voltaInicio)="voltaInicio($event)" />
+    </div>
+}
+
+@if (mensagemSuccess) {
+    <app-mensagem-sucesso (reiniciou)="reiniciaJogo($event)" />
+}
+
+@if (mensagemLose) {
+    <app-mensagem-errou (reiniciou)="reiniciaJogo($event)" />
+}
+
+@if (sinaisUsados) {
+    <app-sinais-usados (fecharSinais)="fecharSinais($event)" />
+}

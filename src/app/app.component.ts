@@ -2,12 +2,32 @@ import { Component, Input, EventEmitter } from '@angular/core';
 
 import { Palavra } from './shared/palavras.model'
 import { PALAVRAS } from './palavras/palavras-mock'
+import { BotaoVoltarComponent } from './botao-voltar/botao-voltar.component';
+import { BotaoMusicComponent } from './botao-music/botao-music.component';
+import { SinaisUsadosComponent } from './sinais-usados/sinais-usados.component';
+import { LetrasComponent } from './letras/letras.component';
+import { MensagemErrouComponent } from './mensagem-errou/mensagem-errou.component';
+import { MensagemSucessoComponent } from './mensagem-sucesso/mensagem-sucesso.component';
+import { PalavrasComponent } from './palavras/palavras.component';
+import { TentativasComponent } from './tentativas/tentativas.component';
+import { PressStartComponent } from './press-start/press-start.component';
+import { FundoComponent } from './fundo/fundo.component';
 
 @Component({
     selector: 'app-root',
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.css'],
-    standalone: false
+    imports: [
+      FundoComponent,
+      PressStartComponent,
+      TentativasComponent,
+      PalavrasComponent,
+      MensagemSucessoComponent,
+      MensagemErrouComponent,
+      LetrasComponent,
+      SinaisUsadosComponent,
+      BotaoVoltarComponent
+    ]
 })
 export class AppComponent {
   title = 'app';

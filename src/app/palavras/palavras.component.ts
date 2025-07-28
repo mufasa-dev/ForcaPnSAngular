@@ -6,8 +6,7 @@ import { PALAVRAS } from './palavras-mock'
 @Component({
     selector: 'app-palavras',
     templateUrl: './palavras.component.html',
-    styleUrls: ['./palavras.component.css'],
-    standalone: false
+    styleUrls: ['./palavras.component.css']
 })
 
 export class PalavrasComponent implements OnInit {

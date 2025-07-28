@@ -3,8 +3,7 @@ import { Component, OnInit, Input, EventEmitter, Output } from '@angular/core';
 @Component({
     selector: 'app-press-start',
     templateUrl: './press-start.component.html',
-    styleUrls: ['./press-start.component.css'],
-    standalone: false
+    styleUrls: ['./press-start.component.css']
 })
 export class PressStartComponent implements OnInit {
 
