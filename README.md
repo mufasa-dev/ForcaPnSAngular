@@ -25,6 +25,7 @@ Welcome to the **Libras Hangman Game** – a hangman-style word guessing game bu
 - 🟦 TypeScript  
 - 🧱 HTML5  
 - 🎨 CSS3
+- 🖌 SVG
 
 ---
 
