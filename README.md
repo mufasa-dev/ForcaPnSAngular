@@ -2,6 +2,8 @@
 
 Welcome to the **Libras Hangman Game** – a hangman-style word guessing game built with **Angular 20**, featuring the **Brazilian Sign Language (Libras)** fingerspelling! 🇧🇷🤟 
 
+[![My Skills](https://skillicons.dev/icons?i=angular,ts,html,css,svg)](https://skillicons.dev)
+
 ---
 
 ## 🌐 Live Demo
